@@ -1,4 +1,5 @@
 <Alloy>
-	<View class="container">
-	</View>
+	<Window class="container">
+		<Widget src="eal.widget.loginform" id="loginbox" message="my custom message" cancel_btn_text="No way!"></Widget>
+	</Window>
 </Alloy>
