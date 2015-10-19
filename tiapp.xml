@@ -4,14 +4,13 @@
     <name>audiometry-project</name>
     <version>1.0</version>
     <publisher>claus</publisher>
-    <url>http://</url>
     <description>This application is a part of a project assignment on EAL. The main purpose of this application is to allow for audiometry tests to be aplyed at any location.</description>
     <copyright>2015 by claus</copyright>
     <icon>appicon.png</icon>
     <fullscreen>false</fullscreen>
     <navbar-hidden>false</navbar-hidden>
     <analytics>true</analytics>
-    <guid>a8e98ef6-9419-422e-9aaa-b2204a98c0a0</guid>
+    <guid>520169ef-9277-4169-9522-2aae0db1a36f</guid>
     <property name="ti.ui.defaultunit" type="string">dp</property>
     <ios>
         <plist>
