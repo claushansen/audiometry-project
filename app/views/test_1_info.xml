@@ -1,4 +1,5 @@
 <Alloy>
-	<View class="container">
-	</View>
+	<Window class="container" >
+	<Label id="lbl_test1_info_title"> Test 1 skal til at begynde</Label>
+	</Window>
 </Alloy>
