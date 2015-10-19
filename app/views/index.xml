@@ -1,10 +1,18 @@
 <Alloy>
-	<Window class="container vgroup">
-		<Label id="lb_front_headline" class="h1">Audiometry made easy</Label>
-		<Label id="lb_front_desc"></Label>
-		
-		<Button id="btn_start_test_1" onClick="doTest1"> Start test</Button>
-		<Button id="btn_view_history"> Se resultater</Button>
-		<Button id="btn_temp_logout" onClick="doLogout">logout </Button>
+	<Window class="container vgroup" navBarHidden="true">
+		<View id="wrapper" class="vgroup">
+			<View id="header" height="25%">
+				<Label id="lb_front_headline" class="h2">Audiometry made easy</Label>
+			</View>
+			<View id="content" class="vgroup buffer" height="60%">
+				<Label id="lb_front_desc" class="large-text">Welcome to your personal hearing testcenter</Label>
+				<Button id="btn_start_test_1" onClick="doTest1" class="square200 btn-primary top-buffer"> Take test</Button>
+			</View>
+			<View id="footer" class="hgroup buffer" height="15%">
+				<Button id="btn_view_history" onClick="getHistoryList" class="btn-small btn-primary right-buffer"> Your previous results</Button>
+				<Button id="btn_view_help" class="btn-small btn-primary right-buffer">Help</Button>
+				<Button id="btn_temp_logout" onClick="doLogout" class="btn-small btn-danger">logout </Button>
+			</View>
+		</View>
 	</Window>
 </Alloy>
