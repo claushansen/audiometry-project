@@ -1,4 +1,13 @@
 <Alloy>
-	<View class="container">
-	</View>
+	<Window class="container buffer">
+		<Label class="h1 normal-text">Information about the second test</Label>
+		<Label class="h2 normal-text">This test will be repeated each time.</Label> 
+		<Label class="h2 normal-text">You will on the next screen see 2 buttons.</Label>
+		<Label class="h2 normal-text">1. First the button on the top, will light </Label>
+		<Label class="h2 normal-text">2. Then the button on the buttom, will light</Label>
+		<Label class="h2 normal-text">There will play a sound when a button is illuminated.</Label>
+		<Label class="h2 normal-text">3. After both buttons have been light, touch the button where you heard the sound from
+(if you did not hear the sound, you will have to guess where you heard it from)</Label>
+		<Button id="startTestTwoButton" class="primaryButton" onClick="startTestTwoButton"></Button>
+	</Window>
 </Alloy>

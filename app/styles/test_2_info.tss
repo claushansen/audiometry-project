@@ -1,4 +1,11 @@
 
 ".container" : {
+	layout:"vertical",
   
+}
+"#startTestTwoButton":{
+	title:"Start Test", 
+	top:"50dp", 
+	width:"122",
+	
 }

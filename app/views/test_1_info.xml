@@ -1,10 +1,10 @@
 <Alloy>
-	<Window  class="container">
-		<Label class="h1 normal-text">Information omkring første test</Label>
-		<Label class="h2 normal-text">Denne test bliver ikke taget hver gang.</Label> 
-		<Label class="h2 normal-text">På næste skærm vil der være en knap.</Label>
-		<Label class="h2 normal-text">1. Hold nede på knappen til du ikke kan hører lyden mere</Label>
-		<Label class="h2 normal-text">2. Slip knappen. Gentag process indtil næste skærm kommer op</Label>
+	<Window  class="container buffer">
+		<Label class="h1 normal-text">Information about the first test</Label>
+		<Label class="h2 normal-text">This test will not be repeated each time.</Label> 
+		<Label class="h2 normal-text">You Will on the next screen see a button.</Label>
+		<Label class="h2 normal-text">1. Press and Hold down the button, till you can't hear the sound anymore</Label>
+		<Label class="h2 normal-text">2. Release the button. Repeat the process until the next screen comes up</Label>
 		<Button id="startTestOneButton" class="primaryButton" onClick="startTestOne"></Button>
 	</Window>
 </Alloy>

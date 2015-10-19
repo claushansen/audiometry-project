@@ -1,6 +1,6 @@
 var args = arguments[0] || {};
 var num = 1; 
-var test1;
+var counter = 0;
 var soundOn=false;
 var sound = Ti.Media.createSound({              
     	url:"/audio/sound.wav", 
@@ -29,9 +29,18 @@ function DecreaseVolume() {
 }
 
 function StopTestOne(){
+	counter++;
 	test1= num;
 	Ti.API.info("StopTestOne()");
 	sound.stop();
 	soundOn=false;
-	//alert(test1);
+	Ti.API.info(counter);
+	if(counter == 2 || counter >= 2)
+	{
+		testDone(); 
+	}
 }
+function testDone(){
+    var w = Alloy.createController('test_2_info').getView();
+    w.open(); 
+ }

@@ -1,6 +1,6 @@
 <Alloy>
-	<Window  class="container">
-		<Label class="h1 normal-text">Press and hold the buttom, till you can't hear the sound anymore</Label>
+	<Window  class="container buffer">
+		<Label class="h1 normal-text">Press and hold the button, till you can't hear the sound anymore</Label>
 		<Button id="btnTestOne" class="primaryButton TestBtn" onTouchstart="StartTestOne" onTouchend="StopTestOne" >HOLD ME!</Button>
 	</Window>
 </Alloy>
