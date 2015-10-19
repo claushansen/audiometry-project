@@ -17,4 +17,9 @@ function doTest1() {
     w.open();    
 }
 
+function doLogout(e){
+	Ti.App.Properties.removeProperty('userid');
+	
+}
+
 $.index.open();

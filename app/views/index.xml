@@ -5,5 +5,6 @@
 		
 		<Button id="btn_start_test_1" onClick="doTest1"> Start test</Button>
 		<Button id="btn_view_history"> Se resultater</Button>
+		<Button id="btn_temp_logout" onClick="doLogout">logout </Button>
 	</Window>
 </Alloy>
