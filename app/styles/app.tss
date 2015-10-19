@@ -145,7 +145,6 @@
  * 	Typography
  */
 ".h1":{
-	top: "30dp",
 	width:"85%",
 	textAlign:Ti.UI.TEXT_ALIGNMENT_CENTER,
 	font:{
@@ -160,7 +159,6 @@
 },
 
 ".h2":{
-	top: "20dp",
 	width:"85%",
 	textAlign:Ti.UI.TEXT_ALIGNMENT_CENTER,
 	font:{
