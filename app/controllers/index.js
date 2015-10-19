@@ -5,12 +5,16 @@ function doTest1(e) {
 	 * else open login
 	 */
 	if(Ti.App.Properties.getString('userid')){
-		test1win = Alloy.createController('test_1_info');
+		var test1win = Alloy.createController('test_1_info');
 	}else{
-		loginwin = Alloy.createController('login');
+		var loginwin = Alloy.createController('login');
 	}
 	
     //alert('testing');
+}
+
+function getHistoryList(e){
+	 var HistoryList = Alloy.createController('history');
 }
 
 function doLogout(e){

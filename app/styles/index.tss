@@ -13,3 +13,13 @@
 		fontSize: 12
 	}
 }
+"#header":{
+	backgroundColor: "#337AB7",
+	color:"#fff"	
+}
+"#lb_front_headline":{
+	color:"#fff"
+}
+"Window": {
+    navBarHidden:true
+}
