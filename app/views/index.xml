@@ -1,5 +1,9 @@
 <Alloy>
-	<Window class="container">
-		<Button id="TestOpen" onClick="TestOpen">Start test 1</Button>
+	<Window class="container vgroup">
+		<Label id="lb_front_headline" class="h1">Audiometry made easy</Label>
+		<Label id="lb_front_desc"></Label>
+		
+		<Button id="btn_start_test_1" onClick="doTest1"> Start test</Button>
+		<Button id="btn_view_history"> Se resultater</Button>
 	</Window>
 </Alloy>

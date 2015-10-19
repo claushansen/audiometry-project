@@ -1,8 +1,6 @@
 
 ".container" : {
 	layout:"vertical",
-	backgroundColor:"#00C5CD"
-  
 },
 
 "Label": {
@@ -11,20 +9,9 @@
     color: "#000"
 },
 
-".normal-text":{
-	color:"#FFF"
-},
-".h1":{
-	top: "30dp",
-	width:"85%",
-	textAlign:Ti.UI.TEXT_ALIGNMENT_CENTER,
-	font:{
-		fontSize: 26
-	}
-},
 ".TestBtn":{
+	top:"75dp",
 	height: "120dp",
 	width:"120dp",
-	backgroundColor:"#000",
-	color:"#FFF"
+	textAlign:Ti.UI.TEXT_ALIGNMENT_CENTER,
 }

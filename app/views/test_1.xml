@@ -1,6 +1,6 @@
 <Alloy>
 	<Window  class="container">
-		<Label class="h1 normal-text">Velkommen til Første del af Audiometry Testen</Label>
-		<Button class="TestBtn">TRYK MIG!</Button>
+		<Label class="h1 normal-text">Press and hold the buttom, till you can't hear the sound anymore</Label>
+		<Button id="btnTestOne" class="primaryButton TestBtn" onTouchstart="StartTestOne" onTouchend="StopTestOne" >HOLD ME!</Button>
 	</Window>
 </Alloy>
