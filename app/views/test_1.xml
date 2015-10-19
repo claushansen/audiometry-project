@@ -1,5 +1,6 @@
 <Alloy>
 	<Window  class="container">
-		<Label class="h1">Velkommen til Første del af Audiometry Testen</Label>
+		<Label class="h1 normal-text">Velkommen til Første del af Audiometry Testen</Label>
+		<Button class="TestBtn">TRYK MIG!</Button>
 	</Window>
 </Alloy>
