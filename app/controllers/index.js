@@ -13,4 +13,9 @@ function doTest1(e) {
     //alert('testing');
 }
 
+function doLogout(e){
+	Ti.App.Properties.removeProperty('userid');
+	
+}
+
 $.index.open();
