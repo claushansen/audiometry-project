@@ -1,4 +1,36 @@
 
 ".container" : {
+	layout:"vertical",
+	backgroundColor:"#00C5CD"
   
+}
+".normal-text":{
+	color:"#FFF"
+},
+".h1":{
+	top: "30dp",
+	width:"85%",
+	textAlign:Ti.UI.TEXT_ALIGNMENT_CENTER,
+	font:{
+		fontSize: 26
+	}
+},
+".h2":{
+	top: "20dp",
+	width:"85%",
+	textAlign:Ti.UI.TEXT_ALIGNMENT_CENTER,
+	font:{
+		fontSize: 18 
+	}
+},
+"#startTestOneButton":{
+	title:"Start Test", 
+	top:"50dp", 
+	width:"122",
+	
+},
+".primaryButton": {
+  backgroundColor: '#fff',
+  color: '#00C5CD',
+  borderRadius:"5"
 }
