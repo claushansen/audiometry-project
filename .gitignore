@@ -11,3 +11,5 @@ Thumbs.db
 tiapp.xml
 tiapp.xml
 tiapp.xml
+plugins/ti.alloy/hooks/alloy.js
+tiapp.xml
