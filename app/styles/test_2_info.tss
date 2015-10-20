@@ -5,7 +5,7 @@
 }
 "#startTestTwoButton":{
 	title:"Start Test", 
-	top:"50dp", 
+	top:"20dp", 
 	width:"122",
 	
 }

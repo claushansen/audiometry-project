@@ -24,7 +24,6 @@ function DecreaseVolume() {
 	num-=0.025;	
 	//sound.play();
 	sound.volume = num;
-	Ti.API.info(num);
 	if(num>0 && soundOn)
     	setTimeout(DecreaseVolume,200);
 }
@@ -34,7 +33,6 @@ function StopTestOne(){
 	test1= num;
 	width += 20;
 	$.CustomProgressBar.width = width;
-	Ti.API.info("StopTestOne()");
 	sound.stop();
 	soundOn=false;
 	Ti.API.info(counter);

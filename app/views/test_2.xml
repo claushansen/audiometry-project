@@ -1,7 +1,8 @@
 <Alloy>
 	<Window class="container">
 		<View id="CustomProgressBar"></View>
-		<Label id="helpTextLabel" class="h1 normal-text">Touch the button where you heard the sound from</Label>
+		<!--<ImageView id="soundOnIcon" image="/images/speaker.png"></ImageView> -->
+		<Label id="helpTextLabel" class="h1 normal-text">Which button lights up, when the audio is played?</Label>
 		<Button id="topBtn" onClick="pressRedbutton" class="btn-danger"></Button>
 		<Button id="buttomBtn" onClick="pressBluebutton" class="btn-primary"></Button>
 	</Window>

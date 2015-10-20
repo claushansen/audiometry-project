@@ -11,8 +11,8 @@
 
 ".TestBtn":{
 	top:"75dp",
-	height: "120dp",
-	width:"120dp",
+	height: "220dp",
+	width:"220dp",
 	textAlign:Ti.UI.TEXT_ALIGNMENT_CENTER,
 }
 

@@ -147,6 +147,7 @@
 ".h1":{
 	width:"85%",
 	textAlign:Ti.UI.TEXT_ALIGNMENT_CENTER,
+	color: "#DD8000",
 	font:{
 		fontSize: 26
 	}
@@ -221,6 +222,10 @@
 },
 ".normal-text":{
 	color:"#D8D8D8"
+},
+
+".orange-text":{
+	color:"#DD8000"
 },
 
 ".small-text":{
