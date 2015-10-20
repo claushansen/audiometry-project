@@ -9,6 +9,7 @@
     "os:mobileweb": {},
     "os:windows": {},
     "dependencies": {
-        "eal.widget.loginform": "1.0"
+        "eal.widget.loginform": "1.0",
+        "eal.widget.resultchart": "1.0"
     }
 }

@@ -5,21 +5,14 @@
   <name>audiometry-project</name>
   <version>1.0</version>
   <publisher>claus</publisher>
-<<<<<<< HEAD
-=======
   <url>http://</url>
->>>>>>> refs/remotes/origin/master
   <description>This application is a part of a project assignment on EAL. The main purpose of this application is to allow for audiometry tests to be aplyed at any location.</description>
   <copyright>2015 by claus</copyright>
   <icon>appicon.png</icon>
   <fullscreen>false</fullscreen>
   <navbar-hidden>false</navbar-hidden>
   <analytics>true</analytics>
-<<<<<<< HEAD
-  <guid>7cae39ac-9707-4cb5-9111-f0abd0adc797</guid>
-=======
-  <guid>5c443285-86a5-4358-9444-c7ad0091e47d</guid>
->>>>>>> refs/remotes/origin/master
+  <guid>9aa94c4f-23e2-4cb6-9000-b2204a98c0a0</guid>
   <property name="ti.ui.defaultunit" type="string">dp</property>
   <ios>
     <plist>
@@ -56,7 +49,9 @@
       </splash>
       <theme>default</theme>
     </mobileweb>
-    <modules/>
+    <modules>
+      <module platform="commonjs">ti.cloud</module>
+    </modules>
     <deployment-targets>
       <target device="iphone">false</target>
       <target device="ipad">false</target>
@@ -68,9 +63,21 @@
     <plugins>
       <plugin version="1.0">ti.alloy</plugin>
     </plugins>
-<<<<<<< HEAD
-    <property name="appc-app-id" type="string">5624c64fb09607c5248aeff3</property>
-=======
-    <property name="appc-app-id" type="string">5625eafc39f13c677e778d3e</property>
->>>>>>> refs/remotes/origin/master
+    <property name="appc-app-id" type="string">5626836aa80df5cf6d10f939</property>
+    <property name="acs-authbase-url-development" type="string">https://secure-identity.cloud.appcelerator.com</property>
+    <property name="acs-base-url-development" type="string">https://api.cloud.appcelerator.com</property>
+    <property name="acs-oauth-secret-development" type="string">4c7lGmibLyMcRgXiUCUnrcUU03F73LN2</property>
+    <property name="acs-oauth-key-development" type="string">lKf700OxJq9b9SXH40nFWLrsaedBCVXv</property>
+    <property name="acs-api-key-development" type="string">Yzh2kCXnLNLNLruoxPW8lCAz5j7owwMB</property>
+    <property name="acs-username-development" type="string">appc_app_user_dev</property>
+    <property name="acs-password-development" type="string">bXe80h8aOxHtn5nNTf</property>
+    <property name="acs-authbase-url-production" type="string">https://secure-identity.cloud.appcelerator.com</property>
+    <property name="acs-base-url-production" type="string">https://api.cloud.appcelerator.com</property>
+    <property name="acs-oauth-secret-production" type="string">PBhBKc39xt34ue0woV3NWmdAw9N60ox7</property>
+    <property name="acs-oauth-key-production" type="string">K9Wmvl3PW0yqmy5FHexRdCU50JXAdmeM</property>
+    <property name="acs-api-key-production" type="string">87tOPfTteE8dAsLF4BevODEilfIuzgXn</property>
+    <property name="acs-username-production" type="string">appc_app_user</property>
+    <property name="acs-password-production" type="string">L6BrcLgjskvzwNhsdH</property>
+    <property name="appc-org-id" type="string">100056660</property>
+    <property name="appc-creator-user-id" type="string">8cd8368e-3dc7-435c-a73c-9cceb1544072</property>
   </ti:app>
