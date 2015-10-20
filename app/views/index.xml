@@ -15,6 +15,7 @@
 				
 				<Button id="btn_view_help" class="btn-small btn-primary right-buffer">Help</Button>
 				-->
+				
 				<Button id="btn_temp_logout" onClick="doLogout" class="btn-small btn-danger">Reset</Button>
 			</View>
 		</View>
