@@ -145,8 +145,11 @@
  * 	Typography
  */
 ".h1":{
+	width:"85%",
+	textAlign:Ti.UI.TEXT_ALIGNMENT_CENTER,
+	color: "#DD8000",
 	font:{
-		fontSize: 36
+		fontSize: 26
 	}
 },
 
@@ -157,8 +160,10 @@
 },
 
 ".h2":{
+	width:"85%",
+	textAlign:Ti.UI.TEXT_ALIGNMENT_CENTER,
 	font:{
-		fontSize: 30
+		fontSize: 18 
 	}
 },
 
@@ -216,9 +221,11 @@
 	}
 },
 ".normal-text":{
-	font:{
-		fontSize: 14
-	}
+	color:"#D8D8D8"
+},
+
+".orange-text":{
+	color:"#DD8000"
 },
 
 ".small-text":{
@@ -355,6 +362,14 @@
 
 '.no-touch':{
 	touchEnabled:false
+
+},
+".primaryButton": {
+  	width:"45%",
+	textAlign:Ti.UI.TEXT_ALIGNMENT_CENTER,
+	backgroundColor:"#428bca",
+	borderColor:"#428bca",
+	borderRadius:3
 }
 /**
  * 	buttons

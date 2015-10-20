@@ -1,4 +1,35 @@
 
 ".container" : {
+	layout:"vertical"
   
+},
+"#CustomProgressBar":{
+	backgroundColor:"Green",
+	width:"60dp",
+	height: "20dp",
+	left:"0dp"
+},
+
+"#helpTextLabel":{
+	top:"20",
+	textAlign:Ti.UI.TEXT_ALIGNMENT_CENTER,
+},
+"#soundOnIcon":{
+	height:32,
+	width:32,
+	layout:"vertical"
+},
+
+"#topBtn":{
+	title:"Red button",
+	top:"20",
+	width:"100%",
+	height:"30%",
+	backgroundColor:"#992E2E"
+},
+"#buttomBtn":{
+	title:"Blue button",
+	width:"100%",
+	height:"30%",
+	backgroundColor:"#2B4978"
 }
