@@ -7,11 +7,5 @@ tmp
 .map
 .project
 .settings
-<<<<<<< HEAD
-Thumbs.dbtiapp.xml
-=======
 Thumbs.db
 tiapp.xml
-tiapp.xml
-tiapp.xml
->>>>>>> refs/remotes/origin/master
