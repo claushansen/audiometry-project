@@ -356,3 +356,28 @@
 '.no-touch':{
 	touchEnabled:false
 }
+/**
+ * 	buttons
+ */
+'.btn':{
+	borderRadius:3,
+} 
+'.btn-small':{
+	borderRadius:3,
+	height:"20",
+	font:{
+		fontSize:"10",
+	}
+}
+'.btn-primary':{
+	backgroundColor:"#3276b1",
+	borderColor:"#285e8e"
+}
+'.btn-success':{
+	backgroundColor:"#5cb85c",
+	borderColor:"#4cae4c"
+}
+'.btn-danger':{
+	backgroundColor:"#d9534f",
+	borderColor:"#d43f3a"
+}
