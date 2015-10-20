@@ -6,11 +6,11 @@
  */
 
 'Label[platform=android]': {
-   color: '#000' // all platforms except Android default to black 
+   color: '#fff' // all platforms except Android default to black 
 },
 
 'Window': {
-    backgroundColor: '#fff', // white background instead of default transparent
+    backgroundColor: '#6E635F', // white background instead of default transparent
     titleAttributes:  {
         color: "#C41230"
    }
@@ -370,7 +370,8 @@
  * 	buttons
  */
 '.btn':{
-	borderRadius:3,
+	backgroundColor:"#DD8000",
+	color:"#FFF"
 } 
 '.btn-small':{
 	borderRadius:3,

@@ -1,25 +1,40 @@
-".container": {
-	backgroundColor:"white"
-}
-
-"Label": {
-	width: Ti.UI.SIZE,
-	height: Ti.UI.SIZE,
-	color: "#000"
-}
-
 "#label": {
 	font: {
 		fontSize: 12
 	}
 }
 "#header":{
-	backgroundColor: "#337AB7",
-	color:"#fff"	
+//	backgroundColor: "#337AB7",
 }
 "#lb_front_headline":{
-	color:"#fff"
+	color:"#DD8000",
+	right:10
 }
+"#btn_start_test_1":{
+	width:"80%"
+}
+"#btn_view_history": {
+	width:"70%"
+}
+"#btn_view_help": {
+	width:"60%"
+}
+
+".viewButton": {
+	width:"100%",
+	left:0,
+	textAlign:Ti.UI.TEXT_ALIGNMENT_RIGHT,
+	height:Ti.UI.SIZE
+	
+}
+
+".viewButtonLabel": {
+	color:"#FFF",
+	top:10,
+	right:10,
+	bottom:10
+}
+
 "Window": {
-    navBarHidden:true
+    navBarHidden : true
 }
