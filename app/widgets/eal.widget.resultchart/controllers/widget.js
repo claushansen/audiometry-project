@@ -1,13 +1,16 @@
 var args = arguments[0] || {};
  
- 
+ var screenWidth = 350;
  /*
  * Building default options for chart
  * 
  */
+            
+       
 var options = {
         chart: {
-            type: 'line'
+            type: 'line',
+            width: screenWidth
         },
         title: {
             text: 'Your calculated results'
@@ -65,7 +68,7 @@ $.chartWebview.url= WPATH('html/chart.html');
  */
 $.chartWebview.addEventListener('load', function() {
 	Ti.API.info('chartWebView ready');
-	$.chartWebview.evalJS('plotChart('+JSON.stringify(options)+')');
+	$.chartWebview.evalJS('plotChart('+JSON.stringify(options)+','+screenWidth+')');
 });
 
 /*
@@ -81,7 +84,7 @@ $.chartWebview.addEventListener('load', function() {
  */
 exports.setSeries = function(series){
 	options.series = series;
-	$.chartWebview.evalJS('plotChart('+JSON.stringify(options)+')');
+	$.chartWebview.evalJS('plotChart('+JSON.stringify(options)+','+screenWidth+')');
 };
 
 /*
@@ -91,7 +94,7 @@ exports.setSeries = function(series){
  */
 exports.setTitle = function(title){
 	options.title.text = title;
-	$.chartWebview.evalJS('plotChart('+JSON.stringify(options)+')');
+	$.chartWebview.evalJS('plotChart('+JSON.stringify(options)+','+screenWidth+')');
 };
 
 /*
@@ -101,6 +104,6 @@ exports.setTitle = function(title){
  */
 exports.setSubtitle = function(subtitle){
 	options.subtitle.text = subtitle;
-	$.chartWebview.evalJS('plotChart('+JSON.stringify(options)+')');
+	$.chartWebview.evalJS('plotChart('+JSON.stringify(options)+','+screenWidth+')');
 };
 

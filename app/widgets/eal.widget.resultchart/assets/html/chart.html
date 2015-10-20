@@ -2,6 +2,7 @@
 <html>
 <head>
 <meta charset="utf-8">
+<meta name="viewport" content="target-densitydpi=high-dpi" />
 <title>My results</title>
 <script src="jquery.min.js"></script>
 <script src="highcharts.js"></script>
@@ -11,10 +12,13 @@
 </head>
 
 <body>
-<div id="container" style="min-width: 310px; height: 400px; margin: 0 auto"></div>
+<div id="container" style="height: 400px;"></div>
 <script>
 
-function plotChart(myoptions) {	
+function plotChart(myoptions,chartwidth) {	
+	//alert('width:'+chartwidth);
+	//$('#container').css("width",chartwidth+'px');
+	//$('body').css("width",chartwidth+'px');
     $('#container').highcharts(myoptions);
 }
 </script>
