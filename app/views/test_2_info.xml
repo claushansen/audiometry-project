@@ -8,6 +8,6 @@
 		<Label class="h2 normal-text">There will play a sound when a button is illuminated.</Label>
 		<Label class="h2 normal-text">3. After both buttons have been light, touch the button where you heard the sound from
 (if you did not hear the sound, you will have to guess where you heard it from)</Label>
-		<Button id="startTestTwoButton" class="primaryButton" onClick="startTestTwoButton"></Button>
+		<Button id="startTestTwoButton" class="btn-primary" onClick="startTestTwoButton"></Button>
 	</Window>
 </Alloy>

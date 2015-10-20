@@ -1,4 +1,7 @@
 <Alloy>
 	<Window class="container">
+		<View id="CustomProgressBar"></View>>
+		<Button id="topBtn" class="btn-danger"></Button>
+		<Button id="ButtomBtn" class="btn-primary"></Button>
 	</Window>
 </Alloy>

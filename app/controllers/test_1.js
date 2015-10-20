@@ -1,6 +1,7 @@
 var args = arguments[0] || {};
 var num = 1; 
 var counter = 0;
+var width = 0;
 var soundOn=false;
 var sound = Ti.Media.createSound({              
     	url:"/audio/sound.wav", 
@@ -31,11 +32,13 @@ function DecreaseVolume() {
 function StopTestOne(){
 	counter++;
 	test1= num;
+	width += 20;
+	$.CustomProgressBar.width = width;
 	Ti.API.info("StopTestOne()");
 	sound.stop();
 	soundOn=false;
 	Ti.API.info(counter);
-	if(counter == 2 || counter >= 2)
+	if(counter == 3 || counter >= 3)
 	{
 		testDone(); 
 	}
@@ -44,3 +47,4 @@ function testDone(){
     var w = Alloy.createController('test_2_info').getView();
     w.open(); 
  }
+

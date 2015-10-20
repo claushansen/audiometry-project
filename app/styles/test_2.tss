@@ -1,4 +1,22 @@
 
 ".container" : {
+	layout:"vertical"
   
+}
+"#topBtn":{
+	width:"100%",
+	height:"30%",
+	
+
+}
+"#ButtomBtn":{
+	width:"100%",
+	height:"30%",
+
+}
+"#CustomProgressBar":{
+	backgroundColor:"Green",
+	width:"60dp",
+	height: "20dp",
+	left:"0dp"
 }

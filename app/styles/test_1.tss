@@ -15,3 +15,11 @@
 	width:"120dp",
 	textAlign:Ti.UI.TEXT_ALIGNMENT_CENTER,
 }
+
+"#CustomProgressBar":{
+	backgroundColor:"Green",
+	width:"0%",
+	height: "20dp",
+	left:"0dp"
+}
+

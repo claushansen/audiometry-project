@@ -5,6 +5,6 @@
 		<Label class="h2 normal-text">You Will on the next screen see a button.</Label>
 		<Label class="h2 normal-text">1. Press and Hold down the button, till you can't hear the sound anymore</Label>
 		<Label class="h2 normal-text">2. Release the button. Repeat the process until the next screen comes up</Label>
-		<Button id="startTestOneButton" class="primaryButton" onClick="startTestOne"></Button>
+		<Button id="startTestOneButton" class="btn-primary" onClick="startTestOne"></Button>
 	</Window>
 </Alloy>
