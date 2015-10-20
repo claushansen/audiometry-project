@@ -20,7 +20,7 @@ function StartTestOne(){
     }
 }
 
-function DecreaseVolume() {
+function DecreaseVolume() { 
 	num-=0.025;	
 	//sound.play();
 	sound.volume = num;

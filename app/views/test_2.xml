@@ -1,7 +1,8 @@
 <Alloy>
 	<Window class="container">
-		<View id="CustomProgressBar"></View>>
-		<Button id="topBtn" class="btn-danger"></Button>
-		<Button id="ButtomBtn" class="btn-primary"></Button>
+		<View id="CustomProgressBar"></View>
+		<Label id="helpTextLabel" class="h1 normal-text">Touch the button where you heard the sound from</Label>
+		<Button id="topBtn" onClick="pressRedbutton" class="btn-danger"></Button>
+		<Button id="buttomBtn" onClick="pressBluebutton" class="btn-primary"></Button>
 	</Window>
 </Alloy>
