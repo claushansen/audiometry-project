@@ -7,7 +7,7 @@ function doTest1(e) {
 	if(Ti.App.Properties.getString('userid')){
 		test1win = Alloy.createController('test_1_info');
 	}else{
-		loginwin = Alloy.createController('login');
+		loginwin = Alloy.createController('help');
 	}
 	
     //alert('testing');
