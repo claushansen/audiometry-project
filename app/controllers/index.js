@@ -17,6 +17,9 @@ function getHistoryList(e){
 	 var HistoryList = Alloy.createController('history');
 }
 
+function getHelp(e){
+	 var helpview = Alloy.createController('help');
+}
 function doLogout(e){
 	Ti.App.Properties.removeProperty('userid');
 	
