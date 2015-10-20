@@ -1,5 +1,30 @@
 <Alloy>
 	<Window class="container">
-	<Label>All our results</Label>
+	<TableView id="Resulttable">
+            <TableViewSection id="sectionResults" headerTitle="Your results">
+            	<TableViewRow class="ResultItemRow vgroup btn" onClick="viewResult">
+            		<Label class="ResultItemDate">Date: 22-03-2015</Label>
+            		<Label class="ResultItemlinktext">Click to view</Label>
+            	</TableViewRow>
+            	<TableViewRow class="ResultItemRow vgroup btn" onClick="viewResult">
+            		<Label class="ResultItemDate">Date: 22-03-2015</Label>
+            		<Label class="ResultItemlinktext">Click to view</Label>
+            	</TableViewRow>
+            	<TableViewRow class="ResultItemRow vgroup btn" onClick="viewResult">
+            		<Label class="ResultItemDate">Date: 22-03-2015</Label>
+            		<Label class="ResultItemlinktext">Click to view</Label>
+            	</TableViewRow>
+            	<TableViewRow class="ResultItemRow vgroup btn" onClick="viewResult">
+            		<Label class="ResultItemDate">Date: 22-03-2015</Label>
+            		<Label class="ResultItemlinktext">Click to view</Label>
+            	</TableViewRow>
+            	<TableViewRow class="ResultItemRow vgroup btn" onClick="viewResult">
+            		<Label class="ResultItemDate">Date: 22-03-2015</Label>
+            		<Label class="ResultItemlinktext">Click to view</Label>
+            	</TableViewRow>
+
+            </TableViewSection>
+            
+        </TableView>
 	</Window>
 </Alloy>

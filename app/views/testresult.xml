@@ -1,4 +1,8 @@
 <Alloy>
-	<Window class="container">
-	</Window>
+
+ <Window  class="container">
+       <Label>Result</Label>
+    </Window>
+	
+
 </Alloy>

@@ -6,8 +6,8 @@
 			</View>
 			<View id="content" class="vgroup" height="60%">
 				<View id="btn_start_test_1" onClick="doTest1" class="btn viewButton top-buffer"><Label class="viewButtonLabel">Take test</Label></View>
-				<View id="btn_view_history" class="btn viewButton top-buffer"><Label class="viewButtonLabel">Previous Results</Label></View>
-				<View id="btn_view_help" class="btn viewButton top-buffer"><Label class="viewButtonLabel">Help</Label></View>
+				<View id="btn_view_history" onClick="getHistoryList" class="btn viewButton top-buffer"><Label class="viewButtonLabel">Previous Results</Label></View>
+				<View id="btn_view_help" onClick="getHelp" class="btn viewButton top-buffer"><Label class="viewButtonLabel">Help</Label></View>
 			</View>
 			<View id="footer" class="hgroup buffer" height="15%">
 				<!--
