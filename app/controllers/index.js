@@ -12,6 +12,10 @@ function doTest1(e) {
 	
     //alert('testing');
 }
+function doTest1() {  
+    var w = Alloy.createController('test_1_info').getView();
+    w.open();    
+}
 
 function getHistoryList(e){
 	 var HistoryList = Alloy.createController('history');

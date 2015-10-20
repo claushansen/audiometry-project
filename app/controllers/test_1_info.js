@@ -1,2 +1,8 @@
-var args = arguments[0] || {};
-$.test_1_info.open();
+var args = arguments[0] || {}; 
+function startTestOne() {  
+    var w = Alloy.createController('test_1').getView();
+    w.open();    
+}
+
+
+

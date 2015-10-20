@@ -1,4 +1,14 @@
 
 ".container" : {
-  
+	layout:"vertical",
+}
+
+"#startTestOneButton":{
+	title:"Start Test", 
+	top:"50dp", 
+	width:"122",
+	
+},
+"#testOneInfoText":{
+	left:0
 }
