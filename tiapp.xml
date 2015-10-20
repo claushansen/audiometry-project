@@ -1,65 +1,63 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ti:app 
-  xmlns:ti="http://ti.appcelerator.org">
-  <id>dk.eal.audiometry</id>
-  <name>audiometry-project</name>
-  <version>1.0</version>
-  <publisher>claus</publisher>
-  <url>http://</url>
-  <description>This application is a part of a project assignment on EAL. The main purpose of this application is to allow for audiometry tests to be aplyed at any location.</description>
-  <copyright>2015 by claus</copyright>
-  <icon>appicon.png</icon>
-  <fullscreen>false</fullscreen>
-  <navbar-hidden>false</navbar-hidden>
-  <analytics>true</analytics>
-  <guid>9c5e76b0-151d-4adc-9111-c7ad0091e47d</guid>
-  <property name="ti.ui.defaultunit" type="string">dp</property>
-  <ios>
-    <plist>
-      <dict>
-        <key>UISupportedInterfaceOrientations~iphone</key>
-        <array>
-          <string>UIInterfaceOrientationPortrait</string>
-        </array>
-        <key>UISupportedInterfaceOrientations~ipad</key>
-        <array>
-          <string>UIInterfaceOrientationPortrait</string>
-          <string>UIInterfaceOrientationPortraitUpsideDown</string>
-          <string>UIInterfaceOrientationLandscapeLeft</string>
-          <string>UIInterfaceOrientationLandscapeRight</string>
-        </array>
-        <key>UIRequiresPersistentWiFi</key>
-        <false/>
-        <key>UIPrerenderedIcon</key>
-        <false/>
-        <key>UIStatusBarHidden</key>
-        <false/>
-        <key>UIStatusBarStyle</key>
-        <string>UIStatusBarStyleDefault</string>
-      </dict>
-    </plist>
-  </ios>
-  <android 
-    xmlns:android="http://schemas.android.com/apk/res/android"/>
+<ti:app xmlns:ti="http://ti.appcelerator.org">
+    <id>dk.eal.audiometry</id>
+    <name>audiometry-project</name>
+    <version>1.0</version>
+    <publisher>claus</publisher>
+    <url>http://</url>
+    <description>This application is a part of a project assignment on EAL. The main purpose of this application is to allow for audiometry tests to be aplyed at any location.</description>
+    <copyright>2015 by claus</copyright>
+    <icon>appicon.png</icon>
+    <fullscreen>false</fullscreen>
+    <navbar-hidden>false</navbar-hidden>
+    <analytics>true</analytics>
+    <guid>a8e98ef6-9419-422e-9aaa-b2204a98c0a0</guid>
+    <property name="ti.ui.defaultunit" type="string">dp</property>
+    <ios>
+        <plist>
+            <dict>
+                <key>UISupportedInterfaceOrientations~iphone</key>
+                <array>
+                    <string>UIInterfaceOrientationPortrait</string>
+                </array>
+                <key>UISupportedInterfaceOrientations~ipad</key>
+                <array>
+                    <string>UIInterfaceOrientationPortrait</string>
+                    <string>UIInterfaceOrientationPortraitUpsideDown</string>
+                    <string>UIInterfaceOrientationLandscapeLeft</string>
+                    <string>UIInterfaceOrientationLandscapeRight</string>
+                </array>
+                <key>UIRequiresPersistentWiFi</key>
+                <false/>
+                <key>UIPrerenderedIcon</key>
+                <false/>
+                <key>UIStatusBarHidden</key>
+                <false/>
+                <key>UIStatusBarStyle</key>
+                <string>UIStatusBarStyleDefault</string>
+            </dict>
+        </plist>
+    </ios>
+    <android xmlns:android="http://schemas.android.com/apk/res/android"/>
     <mobileweb>
-      <precache/>
-      <splash>
-        <enabled>true</enabled>
-        <inline-css-images>true</inline-css-images>
-      </splash>
-      <theme>default</theme>
+        <precache/>
+        <splash>
+            <enabled>true</enabled>
+            <inline-css-images>true</inline-css-images>
+        </splash>
+        <theme>default</theme>
     </mobileweb>
     <modules/>
     <deployment-targets>
-      <target device="iphone">false</target>
-      <target device="ipad">false</target>
-      <target device="android">true</target>
-      <target device="mobileweb">true</target>
-      <target device="windows">false</target>
+        <target device="iphone">false</target>
+        <target device="ipad">false</target>
+        <target device="android">true</target>
+        <target device="mobileweb">true</target>
+        <target device="windows">false</target>
     </deployment-targets>
     <sdk-version>4.1.0.GA</sdk-version>
     <plugins>
-      <plugin version="1.0">ti.alloy</plugin>
+        <plugin version="1.0">ti.alloy</plugin>
     </plugins>
-    <property name="appc-app-id" type="string">5625ee0e39f13c677e778fd4</property>
-  </ti:app>
+    <property name="appc-app-id" type="string">5618ec18d2f02dcf2cdc823c</property>
+</ti:app>
