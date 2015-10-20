@@ -2,16 +2,21 @@
 	<Window class="container vgroup" navBarHidden="true">
 		<View id="wrapper" class="vgroup">
 			<View id="header" height="25%">
-				<Label id="lb_front_headline" class="h2">Audiometry made easy</Label>
+				<Label id="lb_front_headline" class="h2">Audiometry Made Easy</Label>
 			</View>
-			<View id="content" class="vgroup buffer" height="60%">
-				<Label id="lb_front_desc" class="large-text">Welcome to your personal hearing testcenter</Label>
-				<Button id="btn_start_test_1" onClick="doTest1" class="square200 btn-primary top-buffer"> Take test</Button>
+			<View id="content" class="vgroup" height="60%">
+				<View id="btn_start_test_1" onClick="doTest1" class="btn viewButton top-buffer"><Label class="viewButtonLabel">Take test</Label></View>
+				<View id="btn_view_history" class="btn viewButton top-buffer"><Label class="viewButtonLabel">Previous Results</Label></View>
+				<View id="btn_view_help" class="btn viewButton top-buffer"><Label class="viewButtonLabel">Help</Label></View>
 			</View>
 			<View id="footer" class="hgroup buffer" height="15%">
+				<!--
 				<Button id="btn_view_history" onClick="getHistoryList" class="btn-small btn-primary right-buffer"> Your previous results</Button>
+				
 				<Button id="btn_view_help" class="btn-small btn-primary right-buffer">Help</Button>
-				<Button id="btn_temp_logout" onClick="doLogout" class="btn-small btn-danger">logout </Button>
+				-->
+				
+				<Button id="btn_temp_logout" onClick="doLogout" class="btn-small btn-danger">Reset</Button>
 			</View>
 		</View>
 	</Window>
