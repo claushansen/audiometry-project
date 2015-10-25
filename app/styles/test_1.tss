@@ -1,4 +1,25 @@
 
 ".container" : {
-  
+	layout:"vertical",
+},
+
+"Label": {
+    width: Ti.UI.SIZE,
+    height: Ti.UI.SIZE,
+    color: "#000"
+},
+
+".TestBtn":{
+	top:"75dp",
+	height: "220dp",
+	width:"220dp",
+	textAlign:Ti.UI.TEXT_ALIGNMENT_CENTER,
 }
+
+"#CustomProgressBar":{
+	backgroundColor:"Green",
+	width:"0%",
+	height: "20dp",
+	left:"0dp"
+}
+

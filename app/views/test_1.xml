@@ -1,4 +1,7 @@
 <Alloy>
-	<View class="container">
-	</View>
+	<Window class="container buffer">
+		<View id="CustomProgressBar"></View>>
+		<Label  class="h1 normal-text">Press and hold the button, till you can't hear the sound anymore</Label>
+		<Button id="btnStartTestOne" class="btn TestBtn" onTouchstart="StartTestOne" onTouchend="StopTestOne" >HOLD ME!</Button>
+	</Window>
 </Alloy>

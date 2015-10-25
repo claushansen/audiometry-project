@@ -1,4 +1,18 @@
 <Alloy>
-	<View class="container">
-	</View>
+	<Window class="container buffer">
+		<ScrollView class="vgroup">
+			<View class="vgroup buffer">
+			<Label class="h1 orange-text">Information about the second test</Label>
+			<Label class="h4 normal-text">This test will be repeated each time.
+You will on the next screen see 2 buttons.
+	
+ 1. First the button on the top, will light 
+ 2. Then the button on the buttom, will light
+ There will play a sound when a button is illuminated.
+ 3. After both buttons have been light, touch the button where you heard the sound from
+ (if you did not hear the sound, you will have to guess where you heard it from)</Label>
+			<Button id="startTestTwoButton" class="btn" onClick="startTestTwoButton"></Button>
+			</View>
+		</ScrollView>
+	</Window>
 </Alloy>

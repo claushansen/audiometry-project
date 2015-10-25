@@ -1,4 +1,9 @@
 <Alloy>
-	<View class="container">
-	</View>
+	<Window class="container" class="vgroup">
+		<View width="100%" height="80%" class="vgroup">
+			<Widget src="eal.widget.resultchart" id="chart" title="Result of your test"></Widget>
+			
+		</View>
+		<Button class="btn top-buffer" id="historyBackBtn" onClick="closeItem">Back to list</Button>
+	</Window>
 </Alloy>

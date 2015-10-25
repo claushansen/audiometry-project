@@ -1,4 +1,3 @@
-
-".container" : {
-  
+".ResultItemRow":{
+	height:60,
 }
