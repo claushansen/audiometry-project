@@ -10,8 +10,8 @@
   <copyright>2015 by claus</copyright>
   <icon>appicon.png</icon>
   <fullscreen>false</fullscreen>
-  <navbar-hidden>false</navbar-hidden>
-  <analytics>true</analytics>
+  <navbar-hidden>true</navbar-hidden>
+  <analytics>false</analytics>
   <guid>b45ad935-0983-4545-9555-9ba273978038</guid>
   <property name="ti.ui.defaultunit" type="string">dp</property>
   <ios>
