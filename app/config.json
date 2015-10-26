@@ -10,6 +10,7 @@
     "os:windows": {},
     "dependencies": {
         "eal.widget.loginform": "1.0",
-        "eal.widget.resultchart": "1.0"
+        "eal.widget.resultchart": "1.0",
+        "eal.widget.toneplayer": "1.0"
     }
 }
