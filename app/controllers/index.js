@@ -23,8 +23,10 @@ function getHistoryList(e){
 }
 
 function getHelp(e){
-	 var helpview = Alloy.createController('help');
+	 var helpview = Alloy.createController('help').getView();
+	 helpview.open();
 }
+
 function doLogout(e){
 	Ti.App.Properties.removeProperty('userid');
 	
