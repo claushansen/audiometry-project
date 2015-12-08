@@ -1,11 +1,13 @@
 <Alloy>
 	<Window  class="container buffer">
 		<Label class="h1 orange-text">Information about the first test</Label>
-		<Label id="testOneInfoText"class="h4 normal-text">This test will not be repeated each time.
+		<View class="vgroup buffer">
+		<Label id="testOneInfoText" class="h4 normal-text">This test will not be repeated each time.
 You Will on the next screen see a button.
 
  1. Press and Hold down the button, till you can't hear the sound anymore
  2. Release the button. Repeat the process until the next screen comes up</Label>
 		<Button id="startTestOneButton" class="btn" onClick="startTestOne"></Button>
+		</View>
 	</Window>
 </Alloy>

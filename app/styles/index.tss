@@ -7,8 +7,7 @@
 //	backgroundColor: "#337AB7",
 }
 "#lb_front_headline":{
-	color:"#DD8000",
-	right:10
+	color:"#DD8000"
 }
 "#btn_start_test_1":{
 	width:"80%"

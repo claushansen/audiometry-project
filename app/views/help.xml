@@ -1,0 +1,14 @@
+<Alloy>
+	<Window class="container">
+		<ScrollView class="buffer vgroup">
+			<Label class="h1 orange-text">Help</Label>
+			<Label id="helpText" class="h4 normal-text">This text and the video below will help you learn how to use the app.</Label>
+			<VideoPlayer id="videoPlayer" ns="Ti.Media" top="2" url="/videos/videodemo.mp4"
+                     height="300" width="300" backgroundColor="6E635F" autoplay="false" 
+                     scalingMode="Titanium.Media.VIDEO_SCALING_ASPECT_FIT"
+                     onDoubletap="playFullVideo"/>
+            <Label id="helpText2" class="h4 normal-text">Tip: double tap video to play in fullscreen.</Label>
+            <Button id="backButton" class="btn top-buffer" onClick="backToMainMenu">Back to frontpage</Button>
+		</ScrollView>
+	</Window>
+</Alloy>
