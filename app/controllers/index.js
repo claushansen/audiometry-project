@@ -1,4 +1,4 @@
-function doTest1(e) {
+function doTest1() {
 	
 	/*
 	 * If we have userid in properties fire test1
@@ -12,18 +12,21 @@ function doTest1(e) {
 	
     //alert('testing');
 }
-function doTest1() {  
+/*function doTest1() {  
     var w = Alloy.createController('test_1_info').getView();
     w.open();    
 }
+*/
 
 function getHistoryList(e){
 	 var HistoryList = Alloy.createController('history');
 }
 
 function getHelp(e){
-	 var helpview = Alloy.createController('help');
+	 var helpview = Alloy.createController('help').getView();
+	 helpview.open();
 }
+
 function doLogout(e){
 	Ti.App.Properties.removeProperty('userid');
 	

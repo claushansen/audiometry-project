@@ -19,12 +19,14 @@ var options = {
             text: 'date: '
         },
         xAxis: {
-            categories: ['250 mhz', '500mhz', '1000mhz', '2000mhz', '3000mhz', '4000mhz', '6000mhz', '8000mhz']
+            categories: ['250hz', '500hz', '1000hz', '2000hz', '3000hz', '4000hz', '6000hz', '8000hz'],
+             opposite:true
         },
         yAxis: {
             title: {
                 text: 'Sound pressure (db)'
-            }
+            },
+          reversed:true
         },
         plotOptions: {
             line: {
