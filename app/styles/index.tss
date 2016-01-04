@@ -7,8 +7,11 @@
 //	backgroundColor: "#337AB7",
 }
 "#lb_front_headline":{
-	color:"#DD8000",
-	right:10
+	color:"#000000",
+	right:0,
+	font: {
+		fontSize:'24dp'
+	}
 }
 "#btn_start_test_1":{
 	width:"80%"

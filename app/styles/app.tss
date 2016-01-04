@@ -10,10 +10,25 @@
 },
 
 'Window': {
-    backgroundColor: '#6E635F', // white background instead of default transparent
+   // backgroundColor: '#FFFFFF', // white background instead of default transparent
+	backgroundGradient:{
+		type:'linear', 
+	/** /
+		colors:[
+			{color:'#EBF1F6',position:0},
+			{color:'#ABD3EE',position:0.5},
+			{color:'#89c3eb',position:0.51},
+			{color:'#d5ebfb',position:1.0}
+		]
+	/**/
+		colors:[
+			{color:'#EBF1F6',position:0},
+			{color:'#89c3eb',position:1.0}
+		]
+	}, 
     titleAttributes:  {
         color: "#C41230"
-   }
+	}
 },
 
 'Window[platform=android]': {
@@ -147,7 +162,7 @@
 ".h1":{
 	width:"85%",
 	textAlign:Ti.UI.TEXT_ALIGNMENT_CENTER,
-	color: "#DD8000",
+	color: "#000",
 	font:{
 		fontSize: 26
 	}
@@ -221,7 +236,7 @@
 	}
 },
 ".normal-text":{
-	color:"#D8D8D8"
+	color:"#080808"
 },
 
 ".orange-text":{
@@ -375,7 +390,9 @@
  * 	buttons
  */
 '.btn':{
-	backgroundColor:"#DD8000",
+	borderRadius:3,
+	backgroundColor:"#337ab7",
+	borderColor:"#2e6da4",
 	color:"#FFF"
 } 
 '.btn-small':{

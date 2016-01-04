@@ -1,8 +1,8 @@
 <Alloy>
 	<Window  class="container buffer">
-		<Label class="h1 orange-text">Information about the first test</Label>
+		<Label class="h1">Information about the first test</Label>
 		<Label id="testOneInfoText"class="h4 normal-text">This test will not be repeated each time.
-You Will on the next screen see a button.
+You will on the next screen see a button.
 
  1. Press and Hold down the button, till you can't hear the sound anymore
  2. Release the button. Repeat the process until the next screen comes up</Label>

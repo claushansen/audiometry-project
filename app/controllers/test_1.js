@@ -10,18 +10,25 @@ var sound = Ti.Media.createSound({
 	});
 	
 function StartTestOne(){
-	sound.volume = 1.0;
+	sound.volume = 0.6;
 	num = 1;
 	sound.play();
 	
     if(!soundOn) {
-    	setTimeout(DecreaseVolume,200);
+    	setTimeout(DecreaseVolume,100);
 	soundOn=true;
     }
 }
 
-function DecreaseVolume() { 
-	num-=0.025;	
+function DecreaseVolume() {
+	if(num>0.5)
+		num-=0.05;
+	else if (num>0.25)
+		num-=0.025;
+	else if (num>0.1)
+		num-=0.0075;
+	else
+		num-=0.0025
 	//sound.play();
 	sound.volume = num;
 	if(num>0 && soundOn)
