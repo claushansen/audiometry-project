@@ -11,7 +11,8 @@
 	right:0,
 	font: {
 		fontSize:'24dp'
-	}
+	},
+	color:"#DD8000"
 }
 "#btn_start_test_1":{
 	width:"80%"
